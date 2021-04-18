@@ -26,8 +26,8 @@ namespace PHUpdater
             pictureBox1.Controls.Add(pictureBox4);
             pictureBox4.Location = new Point(410, 475);
             pictureBox4.BackColor = Color.Transparent;
-            pictureBox1.Controls.Add(button1);
-            button1.Location = new Point(410, 475);
+            button1.Controls.Add(pictureBox4);
+            button1.Location = new Point(402, 476);
             button1.BackColor = Color.Transparent;
             pictureBox1.Controls.Add(panel1);
             panel1.Location = new Point(16, 475);
@@ -40,8 +40,11 @@ namespace PHUpdater
             pictureBox5.Location = new Point(498, 8);
             pictureBox5.BackColor = Color.Transparent;
 
-            
+            button1.TabStop = false;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.FlatAppearance.BorderSize = 0;
 
+            
 
 
         }
@@ -120,6 +123,21 @@ namespace PHUpdater
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             checkForUpdater();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Do you want cancel the game ?","Phoenix Heroes Updater", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                this.Close();
+            }
+
+            else if (result == DialogResult.No) ;
+                
+
+           
         }
     }
 
