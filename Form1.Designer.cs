@@ -37,10 +37,10 @@ namespace PHUpdater
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button3 = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -51,9 +51,9 @@ namespace PHUpdater
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-2, -3);
+            this.pictureBox1.Location = new System.Drawing.Point(-5, -3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(526, 525);
+            this.pictureBox1.Size = new System.Drawing.Size(529, 531);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -77,6 +77,7 @@ namespace PHUpdater
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox4
             // 
@@ -103,20 +104,10 @@ namespace PHUpdater
             // panel1
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel1.Location = new System.Drawing.Point(83, 234);
+            this.panel1.Location = new System.Drawing.Point(84, 234);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(383, 31);
+            this.panel1.Size = new System.Drawing.Size(39, 31);
             this.panel1.TabIndex = 5;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel2.Location = new System.Drawing.Point(94, 271);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(53, 15);
-            this.panel2.TabIndex = 6;
             // 
             // timer1
             // 
@@ -160,7 +151,6 @@ namespace PHUpdater
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox4);
@@ -194,10 +184,10 @@ namespace PHUpdater
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Timer timer2;
     }
 }
 

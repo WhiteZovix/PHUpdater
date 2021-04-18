@@ -1,0 +1,16 @@
+C:\Users\alexi\source\repos\PHUpdater\bin\Debug\netcoreapp3.1\PHUpdater.exe
+C:\Users\alexi\source\repos\PHUpdater\bin\Debug\netcoreapp3.1\PHUpdater.deps.json
+C:\Users\alexi\source\repos\PHUpdater\bin\Debug\netcoreapp3.1\PHUpdater.runtimeconfig.json
+C:\Users\alexi\source\repos\PHUpdater\bin\Debug\netcoreapp3.1\PHUpdater.runtimeconfig.dev.json
+C:\Users\alexi\source\repos\PHUpdater\bin\Debug\netcoreapp3.1\PHUpdater.dll
+C:\Users\alexi\source\repos\PHUpdater\bin\Debug\netcoreapp3.1\PHUpdater.pdb
+C:\Users\alexi\source\repos\PHUpdater\obj\Debug\netcoreapp3.1\PHUpdater.csprojAssemblyReference.cache
+C:\Users\alexi\source\repos\PHUpdater\obj\Debug\netcoreapp3.1\PHUpdater.Form1.resources
+C:\Users\alexi\source\repos\PHUpdater\obj\Debug\netcoreapp3.1\PHUpdater.Properties.Resources.resources
+C:\Users\alexi\source\repos\PHUpdater\obj\Debug\netcoreapp3.1\PHUpdater.csproj.GenerateResource.cache
+C:\Users\alexi\source\repos\PHUpdater\obj\Debug\netcoreapp3.1\PHUpdater.AssemblyInfoInputs.cache
+C:\Users\alexi\source\repos\PHUpdater\obj\Debug\netcoreapp3.1\PHUpdater.AssemblyInfo.cs
+C:\Users\alexi\source\repos\PHUpdater\obj\Debug\netcoreapp3.1\PHUpdater.csproj.CoreCompileInputs.cache
+C:\Users\alexi\source\repos\PHUpdater\obj\Debug\netcoreapp3.1\PHUpdater.dll
+C:\Users\alexi\source\repos\PHUpdater\obj\Debug\netcoreapp3.1\PHUpdater.pdb
+C:\Users\alexi\source\repos\PHUpdater\obj\Debug\netcoreapp3.1\PHUpdater.genruntimeconfig.cache
